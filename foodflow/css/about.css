@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+
+body{
+    background-image: url(../img/cafebackground.jpg);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif !important;
+    
+}
+.navbar {
+    background-color: black;
+    border-radius: 30px;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 13px 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: #d4d7c3;
+}
+
+.navbar li a:hover {
+    color: red
+}
+
+.search {
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+
+.navbar input {
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+
+.content {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.carousel {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 10px;
+}
+
+.carousel-inner {
+    width: 100%;
+    overflow: hidden;
+}
+footer {
+    background-color: #3f3631;
+    text-align: center;
+    margin: 5px 0px;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+footer p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.container {
+    background-color: rgba(178, 178, 175, 0.3);
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+
+.content {
+    background-color: rgba(95, 217, 138, 0.946);
+    padding-left: 10px;
+    position: center;
+    color: white;
+    letter-spacing: 2px;
+    display: grid;
+    margin-top: 60px;
+    margin-left: 20%;
+    width: 980px;
+    flex-direction: row;
+    border: 0.2px dotted rgb(104, 104, 104);
+    border-radius: 10px 10px;
+}
+
+h2 {
+    font-size: 37px;
+    color: black;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+p {
+    color: black;
+    font-size: 18px;
+}
+
+.developers {
+    background-color: rgba(180, 243, 207, 0.889);
+    margin-top: 20px;
+    padding-left: 10px;
+    position: center;
+    color: white;
+    letter-spacing: 2px;
+    display: grid;
+    margin-top: 20px;
+    width: 1480px;
+    margin-left: 50px;
+    flex-direction: row;
+    border: 0.2px dotted rgb(104, 104, 104);
+    border-radius: 30px 30px;
+}
+
+.developers h3 {
+    font-size: 28px;
+    color: black;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.dev-profile {
+    display: flex;
+    direction: row;
+    padding: 0px 20px;
+}
+
+.nirajan ul li {
+    color: blue;
+    display: block;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding: 3px 50px;
+    margin: 5px 70px;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+#li-email {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+}
+
+.nirajan ul li:hover {
+    color: rgb(0, 0, 174);
+}
+
+.nirajan img {
+    padding: 0px 130px;
+    border-radius: 50px;
+    border: 3px;
+}
+
+.safal ul li {
+    color: blue;
+    display: block;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding: 3px 50px;
+    margin: 5px 70px;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.safal ul li:hover {
+    color: rgb(0, 0, 174);
+}
+
+.safal img {
+    padding: 0px 130px;
+    border-radius: 50px;
+    border: 3px;
+}
+
+.sandesh ul li {
+    color: blue;
+    display: block;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding: 3px 50px;
+    margin: 5px 70px;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.sandesh ul li:hover {
+    color: rgb(0, 0, 174);
+}
+
+.sandesh img {
+    padding: 0px 130px;
+    border-radius: 2%;
+    border: 3px;
+}
+
+.fa {
+    padding: 8px 9px;
+    font-size: 18px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 8px;
+}
+
+.fa:hover {
+    opacity: 0.95;
+    color: white;
+    outline: 2px solid #102656;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: black;
+}
+
+.fa-envelope {
+    background: #007bb5;
+    color: black;
+}
+
+.fa-github {
+    background: #007bb5;
+    color: white;
+    margin-left: -2px;
+}
+
+.fa-github:hover {
+    background-color: #000000;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+footer {
+    background-color: #3f3631;
+    text-align: center;
+    margin: 0px -6px;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}

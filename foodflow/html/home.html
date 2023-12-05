@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Navigation</title>
+        <link rel="stylesheet" href="../css/home.css">
+    </head>
+    <style> h3{
+        padding-left: 60px;
+    }  </style>  
+    <body>
+    
+            <nav class="navbar">
+                <ul>
+                    <li> <a class="navbar-brand" href="#"><img src="../img/logo.png" alt="Logo" height="35" ></a></li>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contractus.php">Contact us</a></li>
+                    <li><a href="./signup.php">Login/Signup</a>
+                    <div class="search">
+                        <input type="text" name="search" id="onSearch"
+                            placeholder="Search this website" onkeyup="searchFun()">
+                    </div>
+                </ul>
+            </nav>
+  
+    </body>
+    <!-- this is for adding cart -->
+    <body class="">
+    
+        <div class="container">
+            <header>
+                <h1 style="color: white;">Your Shopping Cart</h1>
+                <div class="shopping">
+                    <img src="../img/cart.png">
+                    <span class="quantity">0</span>
+                </div>
+            </header>
+    <div class="backgroundimg"></div>
+            <div class="list">
+              
+            </div> 
+        </div>
+        <div class="card">
+            <h1>Card</h1>
+            <ul class="listCard">
+            </ul>
+            <div class="checkOut">
+                <div class="total">0</div>
+                <div class="closeShopping">Close</div>
+                <button id="payButton">proceed</button>
+            </div>
+        </div>
+    
+        <script src="app.js"></script>
+        
+        <div class="footer">
+            <footer>
+                <p>&copy; 2023 FoodFlow. All rights reserved.</p>
+            </footer>
+        </div>
+    </body>    
+</html>
